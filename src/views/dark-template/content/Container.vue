@@ -65,7 +65,7 @@
         title="Skills"
       >
         <template slot="actions">
-          (% are relative not absolute)
+          (% are not absolute)
         </template>
         <v-layout wrap>
           <template
@@ -141,7 +141,7 @@ export default {
     educations: [
       {
         from       : '2015',
-        to         : '2019 (not finished yet)',
+        to         : '2019',
         title      : 'Bachelor\'s degree, Information Technology',
         location   : 'Seraj University',
         description: 'Became a member of University Academic Association of Computer Science',
