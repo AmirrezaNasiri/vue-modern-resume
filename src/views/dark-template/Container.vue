@@ -65,7 +65,7 @@ export default {
     // eslint-disable-next-line no-unused-vars
     const line = new LeaderLine(
       document.getElementById('to-timeline'),
-      document.getElementById('timeline'),
+      document.getElementById('line-end'),
       {
         size      : 2,
         color     : this.$vuetify.theme.primary,

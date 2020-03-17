@@ -173,7 +173,7 @@ export default {
           items: [
             {
               text : 'English',
-              value: 70,
+              value: 85,
             },
             {
               text : 'Turkish',
