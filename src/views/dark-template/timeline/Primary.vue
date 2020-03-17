@@ -17,8 +17,6 @@
           </div>
         </template>
 
-        <div id="line-end" />
-
         <v-timeline
           dense
         >

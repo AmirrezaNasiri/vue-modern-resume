@@ -49,7 +49,6 @@ import SidebarContainer from '@/views/dark-template/sidebar/Container'
 import ContentContainer from '@/views/dark-template/content/Container'
 import TimelinePrimary from '@/views/dark-template/timeline/Primary'
 import TimelineEndless from '@/views/dark-template/timeline/Endless'
-import LeaderLine from 'leader-line'
 import GithubRibbon from '@/views/dark-template/GithubRibbon'
 
 export default {
@@ -60,18 +59,6 @@ export default {
     TimelinePrimary,
     ContentContainer,
     SidebarContainer,
-  },
-  mounted () {
-    // eslint-disable-next-line no-unused-vars
-    const line = new LeaderLine(
-      document.getElementById('to-timeline'),
-      document.getElementById('line-end'),
-      {
-        size      : 2,
-        color     : this.$vuetify.theme.primary,
-        startLabel: LeaderLine.captionLabel('To the Journey ...'),
-      }
-    )
   },
 }
 </script>
