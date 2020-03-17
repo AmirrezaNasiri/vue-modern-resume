@@ -91,11 +91,6 @@ export default {
               icon: 'mdi-cake-variant',
               text: 'Dec 7, 1996',
             },
-            {
-              name: 'Habitation',
-              icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
-            },
           ],
         },
         socials: {
