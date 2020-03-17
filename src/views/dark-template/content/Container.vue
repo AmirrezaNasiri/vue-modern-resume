@@ -119,17 +119,17 @@ export default {
     prouds: [
       {
         icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
+        text  : 'Answered 12M+ questions!',
         source: '(Bytegate.io post views)',
       },
       {
         icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
+        text  : 'Made people enjoy and learn a new language for equivalent of 31+ years (older than myself!)',
         source: '(Bobet.ir and its channel downloads)',
       },
       {
         icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
+        text  : 'Saved +170 days of time of students, writers and etc!',
         source: '(Delix.ir service usages)',
       },
       {
