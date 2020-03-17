@@ -223,23 +223,23 @@ export default {
       },
       {
         year : '2013',
-        title: 'Founded Bytegate.ir',
+        title: 'Founded Bytegate.io',
         html : `
                     <p>
                         Current status: <span class="green--text accent-4">Active</span>,
                         Team: <span class="">1-5 person(s) (variable)</span>
                     </p>
                     <p>
-                        The main goal of <a target="_blank" href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bytegate">Bytegate.ir</a> is to extend IT-related articles in Persian web with pretty easy-to-understand and picture-driven articles.
+                        The main goal of <a target="_blank" href="https://bytegate.io/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bytegate">Bytegate.io</a> is to extend IT-related articles in Persian web with pretty easy-to-understand and picture-driven articles.
                     </p>
                     <p>
-                        The reason I founded Bytegate.ir was because of a dispute about computer stuffs back in school. Soon, I realized that I know NOTHING about computers! Bytegate.ir is the place I've started learning amazing things.
+                        The reason I founded Bytegate.io was because of a dispute about computer stuffs back in school. Soon, I realized that I know NOTHING about computers! Bytegate.io is the place I've started learning amazing things.
                     </p>
                     <p>
                         Currently there are 600+ articles on the website which helps 4000+ people each day. It's been helping 4 people to cover small part of their expenses.
                    </p>`,
-        image    : 'img/timeline/bytegate.ir.jpg',
-        iconImage: 'img/timeline/bytegate.ir-icon.png',
+        image    : 'img/timeline/bytegate.io.jpg',
+        iconImage: 'img/timeline/bytegate.io-icon.png',
       },
       {
         detailed   : true,
@@ -467,7 +467,7 @@ export default {
         year : 'So far ...',
         title: 'Written 340+ Unique Articles!',
         html : `I'm the guy who loves teaching! So far, I've written 340+ unique articles which most of them are computer-related. You can access them here:
-                    <ul><li><a target="_blank" href="https://bytegate.ir/author/amirrezanasiri/">My posts on Bytegate.ir</a> (260+ Computer-related)</li><li><a target="_blank" href="http://bobet.ir/author/amirrezanasiri/">My posts on Bobet.ir</a> (80+ translations)</li></ul>`,
+                    <ul><li><a target="_blank" href="https://bytegate.io/author/amirrezanasiri/">My posts on Bytegate.io</a> (260+ Computer-related)</li><li><a target="_blank" href="http://bobet.ir/author/amirrezanasiri/">My posts on Bobet.ir</a> (80+ translations)</li></ul>`,
         icon: 'mdi-fountain-pen-tip',
       },
     ],

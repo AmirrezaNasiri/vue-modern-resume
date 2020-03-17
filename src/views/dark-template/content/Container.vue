@@ -7,7 +7,7 @@
       <content-section
         title="Who am I?"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
+        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.io/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.io</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
         I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
       </content-section>
       <content-section
@@ -120,7 +120,7 @@ export default {
       {
         icon  : 'mdi-help-rhombus-outline',
         text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        source: '(Bytegate.io post views)',
       },
       {
         icon  : 'mdi-library-music',

@@ -49,5 +49,5 @@ Feel free to add your own templates, language supports, bug fixes or improvement
 Code is licensed under the [MIT License](LICENSE).
 
 # See Also
-* [ByteGate](https://bytegate.ir/) (our blog)
+* [ByteGate](https://bytegate.io/) (our blog)
 * [تبدیل PDF به ورد](http://delix.ir/) (our sponsored service)
