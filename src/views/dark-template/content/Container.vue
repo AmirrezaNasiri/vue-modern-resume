@@ -187,17 +187,17 @@ export default {
       {
         title: 'Test Driven Development',
         icon : 'mdi-test-tube',
-        value: 26,
+        value: 80,
       },
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-truck-fast',
-        value: 35,
+        value: 75,
       },
       {
         title: 'Git',
         icon : 'mdi-git',
-        value: 67,
+        value: 70,
       },
       { divider: true },
       {
@@ -214,10 +214,10 @@ export default {
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 68,
+        value: 72,
       },
       {
-        title: 'Content Marketing (+340 articles)',
+        title: 'Content Production (+340 articles)',
         icon : 'mdi-text',
         value: 96,
       },
