@@ -103,28 +103,18 @@ export default {
         to  : 6,
       },
       {
-        text: 'There is a good news:',
+        text: 'Of course with a lot of stupid hardship ... a LOT OF them! ...',
         from: 7,
         to  : 7,
       },
       {
-        text: 'Even you can do it!',
+        text: 'But we\'re still alive, aren\'t we?',
         from: 8,
         to  : 8,
       },
       {
-        text: 'Of course with a lot of hardship ... a LOT OF them! ...',
+        text: 'Stop scrolling now and go do whatever you must!\nLife has no reset button.',
         from: 9,
-        to  : 9,
-      },
-      {
-        text: 'But we\'re still alive, aren\'t we?',
-        from: 10,
-        to  : 10,
-      },
-      {
-        text: 'So we WILL do it. There is no option! These are things should be done, without any excuses!\nAnd HEY! There is no RESET button for your life.\nStop scrolling now and go do whatever you must 👌',
-        from: 11,
         to  : null,
       },
     ],

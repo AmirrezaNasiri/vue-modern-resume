@@ -53,14 +53,7 @@
                 xs12
               >
                 <v-card class="elevation-1">
-                  <v-card-title class="pb-0">
-                    <div>
-                      <p v-if="$vuetify.breakpoint.xsOnly">
-                        {{ item.year }}
-                      </p>
-                      <h3>{{ item.title }}</h3>
-                    </div>
-                  </v-card-title>
+                  <v-card-title class="pb-0" />
                   <v-card-text>
                     <v-layout wrap>
                       <v-flex
@@ -68,6 +61,12 @@
                         :md12="!item.image"
                         xs12
                       >
+                        <div class="mb-2">
+                          <p v-if="$vuetify.breakpoint.xsOnly">
+                            {{ item.year }}
+                          </p>
+                          <h3>{{ item.title }}</h3>
+                        </div>
                         <div class="mr-1">
                           <span
                             v-if="item.text"
@@ -86,9 +85,7 @@
                         md5
                         xs12
                       >
-                        <div
-                          class="mt-2"
-                        >
+                        <div>
                           <v-carousel
                             v-if="Array.isArray(item.image)"
                             :show-arrows="false"
@@ -102,7 +99,6 @@
                           </v-carousel>
                           <v-img
                             v-else
-                            :max-height="item.imageHeight ? item.imageHeight : ''"
                             :src="publicPath(item.image)"
                           />
                         </div>
@@ -147,7 +143,7 @@ export default {
         detailed   : true,
         year       : '2009',
         transparent: true,
-        title      : 'Started an7.mahblog.com',
+        title      : 'Started Blogging',
         html       : `
                 <p>
                     I'm still emotional about this one. It was August 9, 2009 that I decided to start blogging so <a target="_blank" href="https://web.archive.org/web/20090819185659/http://an7.mahblog.com/">an7.mahblog.com</a> has just showed up! Years later, Mahblog.com got censored in Iran and my blog disappeared. <a target="_blank" href="https://web.archive.org/web/20120626234739/http://www.an7.mahblog.com/">Last archived page</a> was on June 26, 2012.
@@ -182,7 +178,7 @@ export default {
         year       : '2009',
         transparent: true,
         title      : 'Created Almas-Khor Game',
-        html       : 'A simple (yet almost unbeatable!) game made with Game Maker. It\'s still available for <a target="_blank" href="https://download.tebyan.net/2687/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-%D8%AE%D9%88%D8%B1">download here</a>!<br>The reason this game is pretty important for me is that it was my first published program!',
+        html       : 'A simple (yet almost unbeatable!) game made with Game Maker. It\'s still available for <a target="_blank" href="https://download.tebyan.net/2687/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-%D8%AE%D9%88%D8%B1">download here</a>!<br>The reason this game is pretty important for me is that it was my first published program! It was so funny!',
         image      : 'img/timeline/almas-khor.jpg',
         iconImage  : 'img/timeline/almas-khor-icon.png',
       },
@@ -194,7 +190,7 @@ export default {
         html       : `
           <p>
             Oh shouldn't I include this one?! whatever ...<br>
-            It was 2011 and I'd been addicted to a game called Street Mobsters. On its IR server, which is still available on <a target="_blank" href="https://web.archive.org/web/20111005204247/https://mobgangs.com/">mobgangs.com</a>, I decided to perform a phishing attack and harvest credentials of in-game wealthy people.
+            It was 2011 and I was addicted to a game called Street Mobsters. On its IR server, which is still available on <a target="_blank" href="https://web.archive.org/web/20111005204247/https://mobgangs.com/">mobgangs.com</a>, I decided to perform a phishing attack and harvest credentials of in-game wealthy people.
           </p>
           <p>
             I hosted a page similar to this one and published it inside the game via various mediums. To be honest, I didn't expect any result but about 40 people had given me their username and passwords! among them, I selected wealthiest ones and ... you know rest of the story just add a Robin Hood at the end!
@@ -270,7 +266,7 @@ export default {
           <p>
             WifiShield supposed to be a network security application to find vulnerabilities in Wi-Fi networks and fix them by manipulating through their actual configuration user interface.          </p>
           <p>
-            It was basically a web crawler which is designed to go to default gateway (192.168.1.1 or whatever it was configured) page and interact with its user interfec following predefined action sets.
+            It was basically a web crawler which was designed to go to default gateway (192.168.1.1 or whatever it was configured) page and interact with its user interface following predefined action sets.
           </p>
           <p>
             <span class="red--text darken-3">Failing Reason</span>:
@@ -296,7 +292,7 @@ export default {
           </p>
           <p>
             <span class="orange--text lighten-1">Failing Reason</span>:
-             A year later, it got censored in Iran (since women voice in musics are illegal here!) and the stats dropped suddenly. Before then, it had helped 5 people to cover some pieces of their expenses and had helped <a target="_blank" href="https://mahak-charity.org/main/index.php/fa/">Mahak Charity</a> to receive some donations by promoting it.
+             A year later, it got censored in Iran (since women voice in musics are illegal here!) and the stats went to zero.
           </p>
         `,
         image    : 'img/timeline/bobet.ir.jpg',
@@ -315,7 +311,7 @@ export default {
             <a target="_blank" href="http://t.me/Telepad_Bot">Telepad</a> was a Telegram assistant bot which helped channel owners to manage their posts easily by scheduling posts, instant editing, ready-to-be-published post suggestions and administrators' role management.
           </p>
           <p>
-            The reason behind founding it was personal usage. It was initially created to make Bobet.ir publishing process easier but I decided to let others use it too.
+            The reason behind founding it was personal need. It was initially created to make Bobet.ir publishing process easier but I decided to let others use it too.
           </p>
           <p>
             <span class="red--text darken-3">Failing Reason</span>:
@@ -341,7 +337,7 @@ export default {
             The reason I founded Delix.ir (<u>D</u>ocument <u>ELIXIR</u>) was because back in school, I found out that there is an unsolved need for this kind of services especially needed by teachers. However, it wasn't developed since 2017.
           </p>
           <p>
-            Currently, 3330+ people are using the service. It's still under development and we're going to change the strategy to support B2B market soon.
+            Currently, 4550+ people are using it. It's still under development and we're going to change the strategy to support B2B market soon.
           </p>
         `,
         image    : 'img/timeline/delix.ir.png',
@@ -357,10 +353,10 @@ export default {
           It looks like that 2018 is missing from my CV isn't it? <strong>NOT AT ALL!</strong>
           </p>
           <p>
-          This awesome year was a turning point in my life. I found out the reason why my businesses are not growing; what I'm doing wrong; what I've supposed to do and plenty of other thoughts.
+          This awesome year was a turning point in my life. I found out the reason why my businesses are not growing, what I'm doing wrong, what I'm supposed to do, and plenty of other thoughts.
           </p>
           <p>
-          Technically, I got familiar with and tried to be best (not yet of course!) at the following technologies:
+          Technically, I got familiar with following technologies:
           <ul>
           <li>git</li>
           <li>Laravel</li>
@@ -372,10 +368,6 @@ export default {
           <li>And more ...</li>
           </ul>
           </p>
-          <p>
-          So please don't underestimate this card by its height in pixels. It's worth a lot to me.
-          </p>
-
         `,
         icon: 'mdi-cake-variant',
       },
@@ -384,7 +376,7 @@ export default {
         title: 'Open Sourced Telegram Web Bridge',
         html : `
           <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a>
+              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a>
           </p>
           <p>
             Telegram Web Bridge is a bidirectional, web-based, proxy-like application which can act as a middleman for Telegram Bot API requests (from your actual application to Telegram) and Webhooks (from Telegram to your actual application).
@@ -401,7 +393,7 @@ export default {
         title: 'Open Sourced USB Keystroke Injector',
         html : `
           <p>
-            Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a>
+            Current status: <span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a>
           </p>
           <p>
             An Arduino-based keyboard emulator which injects (i.e. types) a sequence of letters received via Bluetooth protocol or read from predefined SD card payloads. Demo GIF is available on the GitHub page.
@@ -418,14 +410,14 @@ export default {
         title: 'Co-Founded Smo.li',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span>,
+              Current status: <span class="orange--text lighten-1">Inactive</span>,
               Team: <span class="">2</span>
           </p>
           <p>
             <a target="_blank" href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=smoli">Smoli</a> is a URL shortener and link tracking platform that also allows you to add eye-catching and branded call-to-actions to any page on the web. See a demo of Forbes campaign on Business News Daily: <a target="_blank" href="http://smo.li/+demo-forbes">smo.li/+demo-forbes</a>.
           </p>
           <p>
-            The service has been founded by <a target="_blank" href="https://www.linkedin.com/in/saeidhabibpour/">Saeid Habibpour</a> (CEO) and me (CTO). Currently, the MVP is ready and we're researching the market.
+            The service has been founded by <a target="_blank" href="https://www.linkedin.com/in/saeidhabibpour/">Saeid Habibpour</a> (CEO) and me (CTO). Currently we're deciding to either end it or let it be there as is.
           </p>
         `,
         image    : 'img/timeline/smo.li.png',
@@ -436,7 +428,7 @@ export default {
         title: 'Open Sourced This Resume',
         html : `
           <p>
-              Current status: <span class="light-blue--text lighten-3">Open Sourced</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-modern-resume">AmirrezaNasiri/vue-modern-resume</a>
+              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/vue-modern-resume">evryn/vue-modern-resume</a>
           </p>
           <p>
             A Vue.js-based and powered-by-Vuetify (material UI kit) resume template which you're seeing right now!
@@ -450,18 +442,36 @@ export default {
         title: 'Published Vue Registrar Package',
         html : `
           <p>
-              Current status: <span class="light-blue--text lighten-3">Published</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-registrar">AmirrezaNasiri/vue-registrar</a>
+              Current status: <span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/evryn/vue-registrar">evryn/vue-registrar</a>
           </p>
           <p>
             A Vue.js package that makes developers' code a lot cleaner and much more understandable. It's consisted of two features that:
             <ul>
-                <li>Registers all your common and frequently used components globally and ends the need for importing them manually;</li>
+                <li>Registers all your common and frequently used components globally and ends the need for importing them manually (not suitable for chunking);</li>
                 <li>Assembles all your vuex modules in a nested manner.</li>
             </ul>
           </p>
         `,
         image    : 'img/timeline/vue-registrar-demo.png',
         iconImage: 'img/timeline/vue-registrar-logo.png',
+      },
+      {
+        year : '2019',
+        title: 'Published Laravel Toman Package',
+        html : `
+          <p>
+              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/laravel-toman">evryn/laravel-toman</a>
+          </p>
+          <p>
+            A Laravel package to handle popular payment gateways in Iran since their documentations are usually confusing enough!
+          </p>
+          <p>
+            Currently it's only supporting single gateway but we'll soon support others and make it a little bit more elegant.
+          </p>
+        `,
+        image      : 'img/timeline/laravel-toman.png',
+        imageHeight: 200,
+        icon       : 'mdi-github-circle',
       },
       {
         year : 'So far ...',
