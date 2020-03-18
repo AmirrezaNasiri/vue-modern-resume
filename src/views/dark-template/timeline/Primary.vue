@@ -222,8 +222,7 @@ export default {
         title: 'Founded Bytegate.io',
         html : `
                     <p>
-                        Current status: <span class="green--text accent-4">Active</span>,
-                        Team: <span class="">1-5 person(s) (variable)</span>
+                        <small><span class="green--text accent-4">Active</span></small>
                     </p>
                     <p>
                         The main goal of <a target="_blank" href="https://bytegate.io/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bytegate">Bytegate.io</a> is to extend IT-related articles in the Persian web with pretty easy-to-understand and picture-driven articles.
@@ -260,8 +259,7 @@ export default {
         title      : 'Created WifiShield',
         html       : `
           <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
+              <small><span class="red--text darken-3">Failed</span></small>
           </p>
           <p>
             WifiShield supposed to be a network security application to find vulnerabilities in Wi-Fi networks and fix them by manipulating through their actual configuration user interface.          </p>
@@ -281,8 +279,7 @@ export default {
         title: 'Founded Bobet.ir',
         html : `
           <p>
-              Current status: <span class="orange--text lighten-1">Taking last breaths</span>,
-              Team: <span class="">1-6 person(s) (variable)</span>
+              <small><span class="orange--text lighten-1">Taking last breaths</span></small>
           </p>
           <p>
               The purpose of <a target="_blank" href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=bobet">Bobet.ir</a> is to let people learn English and Turkish languages differently. Learning is done by listening to music with their lyrics, Persian translations, and pronunciations of the actual lyric in Persian letters. The website reached 9000 visits/day. More than 270+ music with contents is published there.
@@ -304,8 +301,7 @@ export default {
         title      : 'Founded Telepad',
         html       : `
           <p>
-              Current status: <span class="red--text darken-3">Failed</span>,
-              Team: <span class="">1</span>
+              <small><span class="red--text darken-3">Failed</span></small>
           </p>
           <p>
             <a target="_blank" href="http://t.me/Telepad_Bot">Telepad</a> was a Telegram assistant bot that helped channel owners to manage their content easily. It allowed them to schedule posts, get ready-to-be-published post suggestions, and manage administrators' roles more specifically.
@@ -327,8 +323,7 @@ export default {
         title: 'Founded Delix.ir',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span>,
-              Team: <span class="">1</span>
+             <small><span class="green--text accent-4">Active</span></small>
           </p>
           <p>
             <a target="_blank" href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=delix">Delix.ir</a> is an online image text extractor (OCR) and PDF to Word converter, developed to support the Persian language especially. The service also provides APIs to implement its OCR engines into customers' applications.
@@ -376,7 +371,7 @@ export default {
         title: 'Open Sourced Telegram Web Bridge',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a>
+              <small><span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/telegram-web-bridge">AmirrezaNasiri/telegram-web-bridge</a></small>
           </p>
           <p>
             Telegram Web Bridge is a bidirectional, web-based, proxy-like application. It can act as a middleman for Telegram Bot API requests (from your actual application to Telegram) and Webhooks (from Telegram to your actual application).
@@ -393,7 +388,7 @@ export default {
         title: 'Open Sourced USB Keystroke Injector',
         html : `
           <p>
-            Current status: <span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a>
+            <small><span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/AmirrezaNasiri/usb-keystroke-injector">AmirrezaNasiri/usb-keystroke-injector</a></small>
           </p>
           <p>
             An Arduino-based keyboard emulator which injects (i.e., types) a sequence of letters received via Bluetooth protocol or read from predefined SD card payloads. Demo GIF is available on the GitHub page.
@@ -410,8 +405,7 @@ export default {
         title: 'Co-Founded Smo.li',
         html : `
           <p>
-              Current status: <span class="orange--text lighten-1">Inactive</span>,
-              Team: <span class="">2</span>
+              <small><span class="orange--text lighten-1">Inactive</span></small>
           </p>
           <p>
             <a target="_blank" href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=timeline&utm_campaign=smoli">Smoli</a> is a URL shortener and link tracking platform that also allows you to add eye-catching and branded call-to-action to any page on the web. See a demo of Forbes campaign on Business News Daily: <a target="_blank" href="http://smo.li/+demo-forbes">smo.li/+demo-forbes</a>.
@@ -428,7 +422,9 @@ export default {
         title: 'Open Sourced This Resume',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/vue-modern-resume">evryn/vue-modern-resume</a>
+            <small>
+                     <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/vue-modern-resume">evryn/vue-modern-resume</a>
+            </small>
           </p>
           <p>
             A Vue.js-based and powered-by-Vuetify (material UI kit) resume template which you're seeing right now!
@@ -442,7 +438,9 @@ export default {
         title: 'Published Vue Registrar Package',
         html : `
           <p>
-              Current status: <span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/evryn/vue-registrar">evryn/vue-registrar</a>
+              <small>
+              <span class="orange--text lighten-1">Inactive</span> - <a target="_blank" href="https://github.com/evryn/vue-registrar">evryn/vue-registrar</a>
+              </small>
           </p>
           <p>
             A Vue.js package that makes developers' code a lot cleaner and much more understandable. It's consisted of two features that:
@@ -460,7 +458,9 @@ export default {
         title: 'Published Laravel Toman Package',
         html : `
           <p>
-              Current status: <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/laravel-toman">evryn/laravel-toman</a>
+            <small>
+             <span class="green--text accent-4">Active</span> - <a target="_blank" href="https://github.com/evryn/laravel-toman">evryn/laravel-toman</a>
+            </small>
           </p>
           <p>
             A Laravel package to handle popular payment gateways in Iran since their documentations are usually confusing enough!
@@ -472,6 +472,19 @@ export default {
         image      : 'img/timeline/laravel-toman.png',
         imageHeight: 200,
         icon       : 'mdi-github-circle',
+      },
+      {
+        year : '2019 -',
+        title: 'Senior Developer at GO2TR',
+        html : `
+          <p>
+              <small>Part-Time Employed</small>
+          </p>
+          <p>
+              At <a href="https://go2tr.com">GO2TR</a>, my job is to maintain infrastructure and legacy version of the project, and work on a new version of it as a separate project.
+          </p>
+        `,
+        iconImage: 'img/timeline/go2tr-icon.jpg',
       },
       {
         year : 'So far',
