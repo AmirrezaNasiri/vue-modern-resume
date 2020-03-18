@@ -8,7 +8,7 @@
         title="Who am I?"
       >
         I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.io/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.io</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+        I'm interested and skilled in different topics of Information Technology, including programming, web development, and computer and network security.
       </content-section>
       <content-section
         v-if="prouds"
@@ -124,18 +124,18 @@ export default {
       },
       {
         icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 31+ years (older than myself!)',
+        text  : 'Made people enjoy and learn a new language for the equivalent of 31+ years (older than myself!)',
         source: '(Bobet.ir and its channel downloads)',
       },
       {
         icon  : 'mdi-timer-sand',
-        text  : 'Saved +170 days of time of students, writers and etc!',
+        text  : 'Saved +170 days for students, writers, and anyone with paperwork!',
         source: '(Delix.ir service usages)',
       },
       {
         icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        text  : 'Tried to cover a small part of 7 people expenses.',
+        source: '(My excellent colleagues)',
       },
     ],
     educations: [
@@ -185,7 +185,7 @@ export default {
         value: 80,
       },
       {
-        title: 'Test Driven Development',
+        title: 'Test-Driven Development',
         icon : 'mdi-test-tube',
         value: 80,
       },
